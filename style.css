@@ -577,4 +577,18 @@ h3 {
         display: none;
     }
 
+    .nav-links ul li::after {
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: green;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+
+    .nav-links ul li:hover::after {
+        width: 0%;
+    }
+
 }
